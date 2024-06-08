@@ -1,4 +1,4 @@
-package Djikstra_Ascent;
+package Astar_Djikstra_Ascent.Djikstra_Ascent;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -28,8 +28,6 @@ public class Djikstra {
         Scanner esc = new Scanner(System.in);
         String e = esc.nextLine();
         new Djikstra(o, e);
-        esc.close();
-        obj.close();
 
     }
 
@@ -166,7 +164,7 @@ public class Djikstra {
                             }
 
                             System.out.println("Soma caminho:" + soma); // printa a soma
-                            
+
                             System.exit(1);       // encerrar o programa pq eu fiz um while true kk
                         }
 
@@ -185,7 +183,6 @@ public class Djikstra {
             }
         }
 
-        
         // _________________________________________________________________________________________________
         // FIM Dijkstra
 

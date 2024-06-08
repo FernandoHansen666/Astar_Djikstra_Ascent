@@ -1,4 +1,4 @@
-package Djikstra_Ascent;
+package Astar_Djikstra_Ascent.Djikstra_Ascent;
 
 import java.util.ArrayList;
 
